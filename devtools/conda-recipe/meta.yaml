@@ -1,0 +1,26 @@
+package:
+  name: uibcdf_openmmtools
+  version: 0.0.1
+
+source:
+  path: ../../
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+about:
+  home: https://uibcdf.org
+  license: MIT License
+  summary: ""
+  description: |
+    This library provides some useful python home-made tools and shortcuts (functions, pipes and wrappers) useful for the daily work with OpenMME in the UIBCDF lab.
+  dev_url: https://github.com/uibcdf/UIBCDF_openmmtools
+  doc_url: https://uibcdf.org
